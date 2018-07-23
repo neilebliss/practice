@@ -1,4 +1,4 @@
-package main.java.YodaLinkedList;
+package main.com.bldgt.YodaLinkedList;
 import java.util.ArrayList;
 
 public class YodaLinkedList
