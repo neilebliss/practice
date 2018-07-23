@@ -1,18 +1,18 @@
 package main.com.bldgt.YodaLinkedList;
 import java.util.ArrayList;
 
-public class YodaLinkedList
+public class YodaLinkedList<T>
 {
-    ArrayList<YodaLinkedListNode> nodes;
+    ArrayList<YodaLinkedListNode<T>> nodes;
 
     public YodaLinkedList()
     {
-        nodes = new ArrayList<YodaLinkedListNode>();
+        nodes = new ArrayList<YodaLinkedListNode<T>>();
     }
 
     public YodaLinkedList(int initialCapacity)
     {
-        nodes = new ArrayList<YodaLinkedListNode>(initialCapacity);
+        nodes = new ArrayList<YodaLinkedListNode<T>>(initialCapacity);
     }
 
     // todo unstub
