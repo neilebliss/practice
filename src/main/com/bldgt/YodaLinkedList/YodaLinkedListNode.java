@@ -1,7 +1,7 @@
 package main.com.bldgt.YodaLinkedList;
-public class YodaLinkedListNode
+public class YodaLinkedListNode<T>
 {
     YodaLinkedListNode prev;
     YodaLinkedListNode next;
-    Object data;
+    T data;
 }

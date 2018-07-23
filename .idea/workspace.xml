@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f01fe5f-ceb9-4121-a97a-287ae7c84fb6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/YodaLinkedList/YodaLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/YodaLinkedList/YodaLinkedListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/practice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/bldgt/YodaLinkedList/YodaLinkedListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/bldgt/YodaLinkedList/YodaLinkedListNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YodaLinkedList.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/YodaLinkedList/YodaLinkedList.java">
+      <file leaf-file-name="YodaLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/bldgt/YodaLinkedList/YodaLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+            <state relative-caret-position="336">
+              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding>
                 <element signature="e#171#172#0" expanded="true" />
                 <element signature="e#230#231#0" expanded="true" />
@@ -52,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YodaLinkedListNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/YodaLinkedList/YodaLinkedListNode.java">
+      <file leaf-file-name="YodaLinkedListNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/com/bldgt/YodaLinkedList/YodaLinkedListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="98">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -87,6 +83,8 @@
         <option value="$PROJECT_DIR$/src/main/java/YodaLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/YodaLinkedList/YodaLinkedListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/YodaLinkedList/YodaLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/com/bldgt/YodaLinkedList/YodaLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/com/bldgt/YodaLinkedList/YodaLinkedListNode.java" />
       </list>
     </option>
   </component>
@@ -109,6 +107,7 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -137,7 +136,30 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bldgt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bldgt" type="462c0819:PsiDirectoryNode" />
               <item name="YodaLinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -265,8 +287,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Add maven scaffolding." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add maven scaffolding." />
+    <MESSAGE value="Start with a LinkedList implementation." />
+    <MESSAGE value="fix package structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix package structure" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -279,23 +305,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YodaLinkedList/YodaLinkedListNode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/com/bldgt/YodaLinkedList/YodaLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YodaLinkedList/YodaLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        <state relative-caret-position="336">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding>
             <element signature="e#171#172#0" expanded="true" />
             <element signature="e#230#231#0" expanded="true" />
             <element signature="e#288#289#0" expanded="true" />
             <element signature="e#349#350#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/bldgt/YodaLinkedList/YodaLinkedListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
